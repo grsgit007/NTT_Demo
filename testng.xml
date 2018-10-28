@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="MySuite" parallel="tests" thread-count="2" verbose="1" >
+
+
+
+ <!--
+  <test name="Regression">
+    <packages>
+      <package name="googleDemo.tests" />
+   </packages>
+  </test>
+ -->
+ 
+  <test name="Regression1">
+    <classes>
+      <class name="googleDemo.tests.KeywordSearchTest" />
+   </classes>
+   </test>
+
+  <test name="Regression2">
+    <classes>
+      <class name="googleDemo.tests.ImagePageTest" />
+   </classes>
+  </test>
+ 
+ 
+</suite>

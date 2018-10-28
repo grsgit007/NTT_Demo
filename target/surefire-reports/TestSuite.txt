@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 1.015 sec <<< FAILURE!
+extentSetup(googleDemo.tests.KeywordSearchTest)  Time elapsed: 0.68 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: freemarker/template/TemplateModelException
+	at googleDemo.utils.ExtentManager.getHtmlReporter(ExtentManager.java:26)
+	at googleDemo.utils.ExtentManager.getExtent(ExtentManager.java:20)
+	at googleDemo.tests.KeywordSearchTest.extentSetup(KeywordSearchTest.java:34)
+Caused by: java.lang.ClassNotFoundException: freemarker.template.TemplateModelException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 more
+

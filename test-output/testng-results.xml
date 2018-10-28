@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MySuite" duration-ms="27541" started-at="2018-10-28T13:11:41Z" finished-at="2018-10-28T13:12:08Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="27472" started-at="2018-10-28T13:11:41Z" finished-at="2018-10-28T13:12:08Z">
+      <class name="googleDemo.tests.KeywordSearchTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:googleDemo.tests.KeywordSearchTest@ed9d034]" name="setup" is-config="true" duration-ms="12358" started-at="2018-10-28T13:11:41Z" finished-at="2018-10-28T13:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="itemSearch()[pri:0, instance:googleDemo.tests.KeywordSearchTest@ed9d034]" name="itemSearch" duration-ms="12382" started-at="2018-10-28T13:11:53Z" finished-at="2018-10-28T13:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemSearch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:googleDemo.tests.KeywordSearchTest@ed9d034]" name="tearDown" is-config="true" duration-ms="2607" started-at="2018-10-28T13:12:06Z" finished-at="2018-10-28T13:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=itemSearch status=SUCCESS method=KeywordSearchTest.itemSearch()[pri:0, instance:googleDemo.tests.KeywordSearchTest@ed9d034] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- googleDemo.tests.KeywordSearchTest -->
+    </test> <!-- Regression1 -->
+    <test name="Regression2" duration-ms="27541" started-at="2018-10-28T13:11:41Z" finished-at="2018-10-28T13:12:08Z">
+      <class name="googleDemo.tests.ImagePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:googleDemo.tests.ImagePageTest@4e718207]" name="setup" is-config="true" duration-ms="12512" started-at="2018-10-28T13:11:41Z" finished-at="2018-10-28T13:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateImagePage()[pri:0, instance:googleDemo.tests.ImagePageTest@4e718207]" name="validateImagePage" duration-ms="7264" started-at="2018-10-28T13:11:53Z" finished-at="2018-10-28T13:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImagePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:googleDemo.tests.ImagePageTest@4e718207]" name="tearDown" is-config="true" duration-ms="7642" started-at="2018-10-28T13:12:01Z" finished-at="2018-10-28T13:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateImagePage status=SUCCESS method=ImagePageTest.validateImagePage()[pri:0, instance:googleDemo.tests.ImagePageTest@4e718207] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- googleDemo.tests.ImagePageTest -->
+      <class name="googleDemo.tests.KeywordSearchTest">
+        <test-method status="PASS" signature="extentSetup()[pri:0, instance:googleDemo.tests.KeywordSearchTest@ed9d034]" name="extentSetup" is-config="true" duration-ms="375" started-at="2018-10-28T13:11:40Z" finished-at="2018-10-28T13:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="extentSetup()[pri:0, instance:googleDemo.tests.ImagePageTest@4e718207]" name="extentSetup" is-config="true" duration-ms="0" started-at="2018-10-28T13:11:41Z" finished-at="2018-10-28T13:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="extentClose()[pri:0, instance:googleDemo.tests.KeywordSearchTest@ed9d034]" name="extentClose" is-config="true" duration-ms="89" started-at="2018-10-28T13:12:09Z" finished-at="2018-10-28T13:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentClose -->
+        <test-method status="PASS" signature="extentClose()[pri:0, instance:googleDemo.tests.ImagePageTest@4e718207]" name="extentClose" is-config="true" duration-ms="0" started-at="2018-10-28T13:12:09Z" finished-at="2018-10-28T13:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentClose -->
+      </class> <!-- googleDemo.tests.KeywordSearchTest -->
+    </test> <!-- Regression2 -->
+  </suite> <!-- MySuite -->
+</testng-results>

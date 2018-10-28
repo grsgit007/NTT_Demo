@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [MySuite]" parallel="tests">
+  <test thread-count="2" name="Regression(failed)" parallel="tests">
+    <classes>
+      <class name="googleDemo.tests.ImagePageTest">
+        <methods>
+          <include name="validateImagePage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- googleDemo.tests.ImagePageTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
